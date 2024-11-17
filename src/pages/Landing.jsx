@@ -61,7 +61,7 @@ const Landing = ({setAddResponseFromLanding}) => {
         <option  value="Active">Active</option>
         <option value="Inactive">Inactive </option>
       </select>
-     <Link to={'/home'}><Button onClick={handleSubmitDetails} variant='success'  className='ms-1 p-2 mt-2 'as="input" type="submit" value="Submit" /></Link>
+     <Link to={'/'}><Button onClick={handleSubmitDetails} variant='success'  className='ms-1 p-2 mt-2 'as="input" type="submit" value="Submit" /></Link>
 
    </div>
 

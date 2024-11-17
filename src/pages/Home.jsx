@@ -72,7 +72,7 @@ const Home = ({ addResponseFromLanding }) => {
       <h1 className="d-flex justify-content-center align-items-center mt-5">Employee List</h1>
       <div style={{ margin: '70px' }} className="border rounded p-3">
         <div className="d-flex">
-          <Link to={'/'}>
+          <Link to={'/landing'}>
             <Button variant="success" className="ms-1 p-2 mt-2" as="input" type="submit" value="Add+" />
           </Link>
         </div>

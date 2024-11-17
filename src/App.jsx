@@ -11,8 +11,8 @@ function App() {
     <>
      <Routes>
       {/* path for landing and home  */}
-     <Route path='/' element={<Landing setAddResponseFromLanding={setAddResponseFromLanding}/>}/>
-     <Route path='/home' element={<Home addResponseFromLanding={addResponseFromLanding}/>}/>
+     <Route path='/landing' element={<Landing setAddResponseFromLanding={setAddResponseFromLanding}/>}/>
+     <Route path='/' element={<Home addResponseFromLanding={addResponseFromLanding}/>}/>
 
      </Routes>
         
